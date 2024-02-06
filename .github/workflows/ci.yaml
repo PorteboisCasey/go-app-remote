@@ -3,7 +3,7 @@ name: ci-docker-build-n-push-to-dockerhub
 on:
   push:
     branches:
-      - "master"
+      - "main"
 
 jobs:
   docker:
